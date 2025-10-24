@@ -11,7 +11,7 @@ Certificate vailidy is 2 years (730 days)
 ### From Source
 
 ```bash
-git clone git@github.com:Zisraw/Zpki.git
+git clone https://github.com/Zisraw/Zpki.git
 cd zpki
 cargo build --release
 ```
@@ -87,4 +87,5 @@ zpki --san db.local --san api.local
 zpki --san dev.example.com
 # Add to /etc/hosts: 127.0.0.1 dev.example.com
 ```
+
 
